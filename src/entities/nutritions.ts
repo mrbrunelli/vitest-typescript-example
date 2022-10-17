@@ -1,11 +1,3 @@
-export interface CreateNutritions {
-  carbohydrates: number;
-  protein: number;
-  fat: number;
-  calories: number;
-  sugar: number;
-}
-
 export class Nutritions {
   constructor(
     readonly carbohydrates: number,
@@ -15,7 +7,7 @@ export class Nutritions {
     readonly sugar: number
   ) {}
 
-  static create(v: CreateNutritions) {
+  static create(v: Nutritions) {
     if (v.calories === 0 && v.carbohydrates >= 10) {
       throw new Error(
         "Zero calories requires carbohydrates quantity is less than 10"
