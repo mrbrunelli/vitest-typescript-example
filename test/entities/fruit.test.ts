@@ -69,3 +69,18 @@ test("should throws if provided id is zero", () => {
     expect(e.message).toBe("Id must be greater than zero");
   }
 });
+
+test("should throws if provided name is empty", () => {
+  try {
+    Fruit.create({
+      id: 2,
+      genus: "Musa",
+      name: "",
+      family: "Musaceae",
+      order: "Zingiberales",
+      nutritions,
+    });
+  } catch (e) {
+    expect(e.message).toBe("Name is required");
+  }
+});
