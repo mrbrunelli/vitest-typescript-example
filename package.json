@@ -1,0 +1,17 @@
+{
+  "name": "vitest-typescript-example",
+  "version": "1.0.0",
+  "description": "Vitest with Typescript example",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "tdd": "vitest dev"
+  },
+  "author": "Matheus R. Brunelli",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.3"
+  }
+}
