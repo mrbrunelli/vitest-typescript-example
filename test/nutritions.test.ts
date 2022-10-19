@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { Nutritions } from "../../src/entities/nutritions";
+import { Nutritions } from "../src/nutritions";
 
 test("should create a nutritions", () => {
   const nutrition = Nutritions.create({

@@ -1,6 +1,6 @@
 import { beforeAll, expect, test } from "vitest";
-import { Nutritions } from "../../src/entities/nutritions";
-import { Fruit } from "../../src/entities/fruit";
+import { Nutritions } from "../src/nutritions";
+import { Fruit } from "../src/fruit";
 
 let nutritions: Nutritions;
 
