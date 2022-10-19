@@ -10,7 +10,7 @@ export class Nutritions {
   static create(v: Nutritions) {
     if (v.calories === 0 && v.carbohydrates >= 10) {
       throw new Error(
-        "Zero calories requires carbohydrates quantity is less than 10"
+        "Zero calories requires the amount of carbs to be less than 10"
       );
     }
 

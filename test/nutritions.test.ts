@@ -30,7 +30,7 @@ test("should throws if calories is zero and carbohydrates is less than 10", () =
     });
   } catch (e) {
     expect(e.message).toBe(
-      "Zero calories requires carbohydrates quantity is less than 10"
+      "Zero calories requires the amount of carbs to be less than 10"
     );
   }
 });
