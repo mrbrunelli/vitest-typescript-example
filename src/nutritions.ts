@@ -1,5 +1,5 @@
 export class Nutritions {
-  constructor(
+  private constructor(
     readonly carbohydrates: number,
     readonly protein: number,
     readonly fat: number,

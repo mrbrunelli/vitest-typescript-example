@@ -1,7 +1,7 @@
 import { Nutritions } from "./nutritions";
 
 export class Fruit {
-  constructor(
+  private constructor(
     readonly id: number,
     readonly genus: string,
     readonly name: string,
